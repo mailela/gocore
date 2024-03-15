@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/context"
 	"github.com/gorilla/securecookie"
 	gsessions "github.com/gorilla/sessions"
-	"github.com/jinzhu/gorm"
+	"github.com/mailela/gorm"
 	"github.com/teris-io/shortid"
 )
 
