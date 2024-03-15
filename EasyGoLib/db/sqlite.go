@@ -28,7 +28,7 @@ func Init() (err error) {
 	}
 	dbFile := utils.DBFile()
 	log.Println("db file -->", utils.DBFile())
-	SQLite, err = gorm.Open("sqlite3", fmt.Sprintf("%s?loc=Asia/Shanghai", dbFile))
+	SQLite, err = gorm.Open("sqlite", fmt.Sprintf("%s?loc=Asia/Shanghai", dbFile))
 	if err != nil {
 		return
 	}
