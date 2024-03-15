@@ -4,8 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	"github.com/mailela/gorm"
+	_ "github.com/mailela/gorm/dialects/sqlite"
+	  _ "github.com/mailela/gorm/dialects/mysql"
+         _ "github.com/mailela/gorm/dialects/postgres"
+	 _ "github.com/mailela/gorm/dialects/sqlite"
+	  _ "github.com/mailela/gorm/dialects/mssql"
 	"github.com/mailela/gocore/EasyGoLib/utils"
 )
 
